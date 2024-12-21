@@ -5,8 +5,8 @@ stages:
     deps:
     - path: Train_v1.py
       hash: md5
-      md5: 9c6d3b0eea843163daeaa6bee8ecc701
-      size: 5108
+      md5: ec3dc0df5c011f25578f1a136938a55c
+      size: 3759
     - path: images_tensor.pt
       hash: md5
       md5: 825fa0dff767861bcd851ee8d27e76ba
@@ -18,9 +18,9 @@ stages:
     outs:
     - path: metrics/accuracy_vs_epoch.png
       hash: md5
-      md5: 7bd043857079024b9c2353c20b5eb9c7
-      size: 28272
+      md5: 0884c56ba9bc2c9a6ff41b9e67f861d2
+      size: 24208
     - path: metrics/train_metrics.json
       hash: md5
-      md5: 87d7ead2eb6580aca668ef1bfe6863b0
-      size: 1384
+      md5: d672605f94496d8f262e69de62a2356b
+      size: 1379

@@ -1,0 +1,5 @@
+clowns:
+  dataset: D:\Study\spbu-ds-project\data\observations-514016.csv
+img_dir: D:\Study\spbu-ds-project\data\images
+image_url: image_url
+srtd_img_dir: D:\Study\spbu-ds-project\images

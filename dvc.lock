@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  train_model:
+    cmd: '"C:\Program Files\Python39\AlgoSem2\Scripts\python.exe" Train_v1.py'
+    deps:
+    - path: Train_v1.py
+      hash: md5
+      md5: 9c6d3b0eea843163daeaa6bee8ecc701
+      size: 5108
+    - path: images_tensor.pt
+      hash: md5
+      md5: 825fa0dff767861bcd851ee8d27e76ba
+      size: 4427932910
+    - path: labels_tensor.pt
+      hash: md5
+      md5: 7a2e622dad381dd7ca6ec9023edd6c82
+      size: 60026
+    outs:
+    - path: metrics/accuracy_vs_epoch.png
+      hash: md5
+      md5: 7bd043857079024b9c2353c20b5eb9c7
+      size: 28272
+    - path: metrics/train_metrics.json
+      hash: md5
+      md5: 87d7ead2eb6580aca668ef1bfe6863b0
+      size: 1384

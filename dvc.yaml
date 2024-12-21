@@ -1,0 +1,10 @@
+stages:
+  train_model:
+    cmd: "\"C:\\Program Files\\Python39\\AlgoSem2\\Scripts\\python.exe\" Train_v1.py"
+    deps:
+      - Train_v1.py
+      - images_tensor.pt
+      - labels_tensor.pt
+    outs:
+      - metrics/train_metrics.json
+      - metrics/accuracy_vs_epoch.png

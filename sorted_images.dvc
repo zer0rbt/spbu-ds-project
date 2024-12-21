@@ -1,0 +1,6 @@
+outs:
+- md5: b357173f529af73379a18d3dda89db6b.dir
+  size: 270929217
+  nfiles: 7354
+  hash: md5
+  path: sorted_images
